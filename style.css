@@ -39,6 +39,8 @@ body{
   border-bottom: 1px solid black;
 
 }
+
+
 .nav-link-wrapper a:hover {
   color: black;
 }
@@ -62,7 +64,6 @@ body{
   background-repeat: no-repeat;
 }
 .img-text-wrapper{
-  position: absolute;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -78,6 +79,8 @@ body{
   font-weight: 400;
   transition: 1s;
   color: transparent;
+  background-color: transparent;
+  padding: 25px;
 }
 
 .img-text-wrapper:hover .subtittle{
@@ -85,5 +88,5 @@ body{
   color: black;
   background-color: white;
   padding: 25px;
-  justify-content: center;
+
 }
