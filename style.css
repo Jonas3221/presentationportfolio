@@ -9,6 +9,9 @@ src: url(SCRIPTIN.ttf);
   font-weight: 500;
   color: #8a8a8a;
 }
+h1{
+  font-family: Helvetica;
+}
 
 body{
   margin: 0px;
@@ -87,8 +90,8 @@ body{
   align-items: center;
   height: 100%;
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .img-text-wrapper .subtittle{
@@ -106,18 +109,16 @@ body{
   color: white;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 15px;
-
-
 }
 
 .sprite{
-  width: 500px;
-  height: 500px;
-  background: url('clown.png') 0 0 repeat;
+  width: 350px;
+  height: 350px;
+  background: url('images/clown.png') 0 0 repeat;
   animation: play 2.5s steps(31) infinite;
   margin: auto;
 }
 @keyframes play {
   0%{background-position: 0px;}
-  100% {background-position: -15500px;}
+  100% {background-position: -10850px;}
   }
